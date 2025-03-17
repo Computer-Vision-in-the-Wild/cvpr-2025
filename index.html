@@ -126,15 +126,16 @@
                     <!-- <li><a href="terms.html">Terms</a></li> -->
                     <!-- <li><a href="external.html">External</a></li> -->
                 <!-- </ul> -->
-            </section>
-        </nav>
+            <!-- </section> -->
+        <!-- </nav> -->
     </div>
     <section role="main" style="padding: 1em;">
         <div class="row">
             <p style="font-size:50px; color:black; font-weight: 50" align=center>
                 The 4th Workshop on Computer Vision in the Wild <br> 
-                <span style="font-size:30px; color:gray; font-weight: 50" align=center> -- Building General-Purpose Assistants with Large Multimodal Models<br> </span>
-                <span style="font-size:30px; color:gray; font-weight: 50" align=center>@ CVPR 2025, June 11 or 12 || Location: TBD<br> </span>
+                <span style="font-size:30px; color:gray; font-weight: 50" align=center> <b>Theme</b>: Building Multimodal AI with both Verbal and Spatial Intelligence</span>
+                <br>
+                <span style="font-size:25px; color:gray; font-weight: 50" align=center>Date: June 11 or 12 | Location: Music City Center, Nashville TN<br> </span>
 
 <!--                  <span style="font-size:20px; color:gray; font-weight: 30" align=center>9:00am-6:00pm Israeli Time  ||  11:00pm (October 22)-8:00am Pacific Time  ||  2:00pm-11:00pm Beijing Time</span>   -->             
                 <!-- <br> -->
@@ -147,7 +148,44 @@
 
 
         <div class="row">
-            <h1 style="font-size:30px; color:grey; font-weight: 200">Overview</h1>
+            <!-- <h1 style="font-size:30px; color:grey; font-weight: 200">Overview</h1> -->
+            <h2>Overview</h2>
+            <p>As artificial intelligence continues to evolve, the intersection of vision and language models is becoming increasingly crucial for real-world applications. The <strong>4th Workshop on Computer Vision in the Wild (CVinW)</strong> at <strong><a href="https://cvpr.thecvf.com/">CVPR 2025</a></strong> aims to foster discussions and innovations that push the boundaries of computer vision systems in unconstrained environments. Building on the success of our previous workshops: <a href="https://computer-vision-in-the-wild.github.io/cvpr-2024/"> CVPR 2024 CVinW Workshop</a>, <a href="https://computer-vision-in-the-wild.github.io/cvpr-2023/"> CVPR 2023 CVinW Workshop</a> and
+                <a href="https://computer-vision-in-the-wild.github.io/eccv-2022/"> ECCV 2022 CVinW Workshop</a>, this edition will focus on the next generation of <strong>large multimodal models (LMMs)</strong> and <strong>vision-language-action (VLA) systems</strong>, with an emphasis on <strong>temporal reasoning, video understanding, and physical interaction</strong>.</p>
+            <br>
+            <br>
+            <img src="./static/cvpr2025/img/misc/cv_roadmap.png" alt="header" style="width:100%; margin-top: 0px; margin-bottom: 0px;"/>
+            <p style="font-size:12px; text-align:center;">Image source: <a href="https://arxiv.org/abs/2210.09263">Vision-Language Pre-training: Basics, Recent Advances, and Future Trends</a> and <a href="https://arxiv.org/abs/2309.10020">Multimodal Foundation Models: From Specialists to General-Purpose Assistants</a></p>
+            <br>
+            <p>Over the past years, we have witnessed remarkable advancements in <strong>open-vocabulary</strong> visual comprehension models and <strong>multimodal learning</strong>. Five years ago, vision-language models or multimodal models are mostly built on top of the BERT architecture. Typically, these models contain less than 1B parameters, and trained with a small amount of images. Some representative works are like <a href="https://arxiv.org/abs/1908.02265">ViLBERT<a>, <a href="https://arxiv.org/abs/1909.11740">UNITER</a>, and <a href="https://arxiv.org/abs/1908.03557">VisualBERT</a>, etc. They are mostly used for image-text matching tasks such as visual question answering (VQA) and image captioning. 
+                
+            <!-- Later on, we have seen the emergence of large-scale vision-language models such as Flamingo, Gemini, and GPT-4V. These models are trained with billions of images and text pairs, and they show strong zero-shot transfer capability across a wide range of visual tasks. -->
+
+            Later on, we have seen the emergence of multimodal vision foundation models, such as <a href="">CLIP</a>, <a href="">ALIGN</a> and <a href="">Florence</a>. It scaled up the multimodal training to billions of images. Despite the model size is still relatively small, it shows strong open-vocabulary and zero-shot recognition capability across a wide range of visual domains. These strong capabilities have been further transferred to fine-grained core vision tasks such as object detection (e.g., <a href="https://arxiv.org/abs/2104.12763">M-DETR</a>, <a href="https://arxiv.org/abs/2104.13921">ViLD</a>, <a href="https://arxiv.org/abs/2112.03857">GLIP</a>, <a href="https://arxiv.org/abs/2112.09106">RegionCLIP</a>, <a href="https://arxiv.org/abs/2303.05499">GroundingDINO</a>, <a href="https://arxiv.org/abs/2205.06230">OWL-ViT</a>, etc), image segmentations (e.g., <a href="https://arxiv.org/abs/2212.11270">X-Decoder</a>, <a href="https://arxiv.org/abs/2304.03284">SegGPT</a>, <a href="https://arxiv.org/abs/2304.06718">SEEM</a>, <a href="https://arxiv.org/abs/2304.02643">SAM</a>, <a href="https://arxiv.org/abs/2308.00692">LISA</a>, etc).
+            
+            Most recently, we entered the era of large multimodal models. Connecting the multimodal vision models such as CLIP with large language models such as <a href="https://arxiv.org/abs/2204.14198">Flamingo</a>, <a href="https://arxiv.org/abs/2312.11805">Gemini</a>, <a href="https://openai.com/index/gpt-4v-system-card/">GPT-4V</a>, leading to many advanced multimodal capability. Now we can have a multimodal chatbot such as <a href="https://openai.com/index/gpt-4o-system-card/">GPT-4o</a>, <a href="https://arxiv.org/abs/2408.03326">LLaVA-OneVision</a>, <a href="https://arxiv.org/abs/2502.13923">Qwen-2.5-VL</a> and <a href="https://arxiv.org/abs/2503.01743">Phi-4-Multimodal</a>, which can see, talk and reasoning</p>
+            
+            <p>Despite these successes, current vision models still lack the ability to fully grasp <strong>temporal dynamics, causal reasoning, and embodied interactions</strong>—key elements for autonomous agents that can <strong>see, reason, and act</strong>. Some recent works have attempted to address these challenges by building agentic models and VLA models. Our workshop aims to <strong>bringing together leading researchers, practitioners, and industry experts</strong> to discuss these emerging trends, challenges, and solutions in the field.</p>
+    
+            <h2>Highlights</h2>
+            <ul>
+                <p><strong>(1) Invited Talks</strong> from leading experts in academia and industry on the latest advancements in multimodal AI.</p>    
+
+                <p><strong>(2) Paper Presentations</strong> showcasing cutting-edge research contributions in computer vision in the wild.</p>
+                
+                <p><strong>(3) Panel Discussions (Tentative)</strong> exploring the future of vision-language-action models and their impact on robotics, autonomous systems, and real-world AI applications.</p>
+                <!-- <li><strong>Two Research Challenges</strong> designed to benchmark and evaluate state-of-the-art models:
+                    <ul>
+                        <li><strong>Fine-grained Temporal Dynamics Understanding (TemporalBench)</strong></li>
+                        <li><strong>Video-based World Modeling Evaluation (MMWorld)</strong></li>
+                    </ul>
+                </li> -->
+            </ul>
+    
+            <p>We invite researchers, engineers, and enthusiasts to join us in shaping the future of vision systems that go beyond static image recognition to <strong>dynamic, interactive, and real-world AI applications</strong>. Stay tuned for more details on speakers, paper submissions, and challenge participation!</p>
+    
+            <p>For more information, visit our <strong>official workshop page</strong> and explore our <strong>CVinW reading list</strong>: 📌 <a href="https://github.com/Computer-Vision-in-the-Wild/CVinW_Readings" target="_blank">CVinW Readings</a></p>            
+            <!-- <h1 style="font-size:30px; color:grey; font-weight: 200">Overview</h1>
             <div class="large-12 columns" style="text-align:left;">
                 <p style="font-size:15px; font-weight: 400; text-align:left">
 
@@ -157,9 +195,9 @@
                 <a href="https://computer-vision-in-the-wild.github.io/eccv-2022/"> ECCV 2022 CVinW Workshop</a>. For those who are new to this topic, please check out the  <a href="https://github.com/Computer-Vision-in-the-Wild/CVinW_Readings/blob/main/README.md">CVinW Reading List</a>.
                 
                 <br>
-                <br>
+                <br> -->
                 
-                The development of LMMs is an emerging new filed, with a vast research exploration space in data collection, modeling, evaluation and new application scenarios. There are many new evaluation and benchmarks merged to measure their performance from different aspects. To advocate established benchmarks to measure the progress, this workshop welcome authors different benchmarks to run indepedent challenges and report results. We highlight a few recent LMM evaluation toolkit / benchmarks:
+                <!-- The development of LMMs is an emerging new filed, with a vast research exploration space in data collection, modeling, evaluation and new application scenarios. There are many new evaluation and benchmarks merged to measure their performance from different aspects. To advocate established benchmarks to measure the progress, this workshop welcome authors different benchmarks to run indepedent challenges and report results. We highlight a few recent LMM evaluation toolkit / benchmarks: -->
                 <!-- <ul style="font-size:15px;">
 
                     
@@ -178,7 +216,7 @@
                 </p>
             </div>
             <hr>
-        </div>
+        <!-- </div> -->
 
 
 
@@ -221,61 +259,45 @@
 </div> -->
 
 
-
-<!-- Invited Speakers -->
-<!-- 
-  <div class="row">
-        <h1 style="font-size:30px; color:grey; font-weight: 200">Invited Speakers/Panelists</h1>
+<br>
+<br>
+  <!-- <div class="row"> -->
+        <!-- <h1 style="font-size:30px; color:grey; font-weight: 200">Invited Speakers</h1> -->
+    <h2 style="text-align:center;">Invited Speakers</h2>
+    <br>
         <div class="team" id="people">
             <div class="row" style="display: flex; text-align:center; justify-content: center;">
 
                 <div class="large-2 columns">
-                    <a href="https://www.cs.utexas.edu/users/grauman/"><img src="./static/cvpr2024/img/speakers/grauman.jpg"  class="speaker_picture" style="width:150px; height:150px;">
+                    <a href="https://people.csail.mit.edu/kaiming/"><img src="https://people.csail.mit.edu/kaiming/img/kmh2024fall.jpg"  class="speaker_picture" style="width:180px; height:180px;">
                         <br><br>
                     </a>
-                    <p style="font-size:12px; font-weight: 200;">Kristen Grauman
-                        <br>University of Texas at Austin</p>
+                    <p style="font-size:16px; font-weight: 200;">Kaiming He
+                        <br>MIT</p>
                 </div>
 
                 <div class="large-2 columns">
-                    <a href="http://boqinggong.info/"><img src="./static/cvpr2024/img/speakers/boqing_gong.jpg"  class="speaker_picture" style="width:150px; height:150px;">
+                    <a href="http://boqinggong.info/"><img src="./static/cvpr2025/img/speakers/boqing_gong.jpg"  class="speaker_picture" style="width:180px; height:180px;">
                         <br><br>
                     </a>
-                    <p style="font-size:12px; font-weight: 200;">Boqing Gong
-                        <br>Google</p>
+                    <p style="font-size:16px; font-weight: 200;">Boqing Gong
+                        <br>Boston University</p>
                 </div>  
 
                 <div class="large-2 columns">
-                    <a href="https://web.eecs.umich.edu/~justincj/"><img src="https://web.eecs.umich.edu/~justincj/images/me-v2.jpg" class="speaker_picture" style="width:150px; height:150px;">
+                    <a href="https://cordeliaschmid.github.io/"><img src="https://cordeliaschmid.github.io/images/profil_cd.jpg" class="speaker_picture" style="width:180px; height:180px;">
                         <br><br>
                     </a>
-                    <p style="font-size:12px; font-weight: 200;">Justin Johnson
-                        <br>University of Michigan | FAIR</p>
+                    <p style="font-size:16px; font-weight: 200;">Cordelia Schmid
+                        <br>Inria | Google</p>
                 </div>
     
                 <div class="large-2 columns">
-                    <a href="https://sites.google.com/site/yinfeiyang"><img src="./static/eccv2022/img/yinfei_yang.jpeg" class="speaker_picture" style="width:150px; height:150px;">
+                    <a href="https://www.ranjaykrishna.com/index.html"><img src="https://www.ranjaykrishna.com/uploads/3/4/4/6/34464733/headshot_orig.jpeg" class="speaker_picture" style="width:180px; height:180px;">
                         <br><br>
                     </a>
-                    <p style="font-size:12px; font-weight: 200;">Yinfei Yang 
-                        <br>Apple</p>
-                </div>
-
-
-                <div class="large-2 columns">
-                        <a href="https://bryanplummer.com/"><img src="https://bryanplummer.com/profile.jpg"  class="speaker_picture" style="width:150px; height:150px;">
-                            <br><br>
-                        </a>
-                        <p style="font-size:12px; font-weight: 200;">Bryan A. Plummer
-                            <br>Boston University</p>
-                </div>
-
-                <div class="large-2 columns">
-                    <a href="https://www.leizhang.org/"><img src="./static/cvpr2024/img/speakers/leizhang_square.jpg"  class="speaker_picture" style="width:150px; height:150px;">
-                        <br><br>
-                    </a>
-                    <p style="font-size:12px; font-weight: 200;">Lei Zhang
-                        <br>International Digital Economy Academy (IDEA)</p>
+                    <p style="font-size:16px; font-weight: 200;">Ranjay Krishna 
+                        <br>University of Washington</p>
                 </div>
 
                 <div class="large-1 columns">
@@ -286,57 +308,41 @@
             <div class="row" style="display: flex; text-align:center; justify-content: center;">
 
 
-
                 <div class="large-2 columns">
-                    <a href="https://liuziwei7.github.io/"><img src="./static/eccv2022/img/ziwei_liu.png"   class="speaker_picture" style="width:150px; height:150px;";>
+                    <a href="https://www.sainingxie.com/"><img src="https://www.sainingxie.com/imgs/portrait.png"   class="speaker_picture" style="width:180px; height:180px;";>
                             <br><br>
                         </a>
-                        <p style="font-size:12px; font-weight: 200;">Ziwei Liu
-                            <br>NTU</p>
+                        <p style="font-size:16px; font-weight: 200;">Saining Xie
+                            <br>New York University</p>
                 </div>
                 
                 
                     <div class="large-2 columns">
-                    <a href="https://blog.roboflow.com/author/jacob/"><img src="./static/cvpr2024/img/speakers/jacob.jpeg"  class="speaker_picture" style="width:150px; height:150px;">
+                    <a href="https://yunzhuli.github.io/"><img src="https://yunzhuli.github.io/files/profile.jpg"  class="speaker_picture" style="width:180px; height:180px;">
                         <br><br>
                     </a>
-                    <p style="font-size:12px; font-weight: 200;">Jacob Solawetz
-                        <br>Roboflow</p>
+                    <p style="font-size:16px; font-weight: 200;">Yunzhu Li
+                        <br>Columbia University</p>
                 </div>                            
 
 
                 <div class="large-2 columns">
-                    <a href="https://research.google/people/AneliaAngelova/"><img src="./static/cvpr2024/img/speakers/Anelia.gif"  class="speaker_picture" style="width:150px; height:150px;">
+                    <a href="https://furong-huang.com/"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=13yyuCcAAAAJ&citpid=12"  class="speaker_picture" style="width:180px; height:180px;">
                         <br><br>
                     </a>
-                    <p style="font-size:12px; font-weight: 200;">Anelia Angelova
-                        <br>Google Brain</p>
+                    <p style="font-size:16px; font-weight: 200;">Furong Huang
+                        <br>University of Maryland</p>
                 </div>     
-
-                    <div class="large-2 columns">
-                    <a href="https://jiasenlu.github.io/"><img src="https://jiasenlu.github.io/images/profile.jpeg"  class="speaker_picture" style="width:150px; height:150px;">
-                        <br><br>
-                    </a>
-                    <p style="font-size:12px; font-weight: 200;">Jiasen Lu
-                        <br>Allen Instutite for AI</p>
-                </div>                        
-
-
-                <div class="large-2 columns">
-                    <a href="https://www.cs.cmu.edu/~katef/"><img src="https://www.cs.cmu.edu/~katef/images/stairs.png" target="_blank"  class="speaker_picture" style="width:150px; height:150px;">
-                        <br><br>
-                    </a>
-                    <p style="font-size:12px; font-weight: 200;">Katerina Fragkiadaki 
-                        <br>CMU</p>
-                </div>                        
+                  
+                    
     
-                <div class="large-2 columns">
+                <!-- <div class="large-2 columns">
                     <a href="https://faculty.cc.gatech.edu/~dbatra/"><img src="./static/cvpr2024/img/speakers/dhruv_batra.jpg"  class="speaker_picture" style="width:150px; height:150px;">
                         <br><br>
                     </a>
                     <p style="font-size:12px; font-weight: 200;">Dhruv Batra
                         <br>Georgia Tech | FAIR</p>
-                </div>     
+                </div>      -->
 
                 <div class="large-1 columns">
                     <p></p>
@@ -345,61 +351,68 @@
             </div>
 
         <hr>
-    </div> -->
-
-
-    <div class="row">
-        <h1 style="font-size:30px; color:grey; font-weight: 200">Schedule (TBD)</h1>
     </div>
 
 
+    <!-- <div class="row">
+        <h2>Schedule (TBD)</h2>
+    </div> -->
+
+
 <div class="row">
-    <h1 style="font-size:30px; color:grey; font-weight: 200">Call for Papers</h1>
+    <!-- <h1 style="font-size:30px; color:grey; font-weight: 200">Call for Papers</h1> -->
+    <h2>Call for Papers</h2>
     <div class="large-12 columns" style="text-align:left;">
         <p style="font-size:15px; font-weight: 400; text-align:left">
-            Topics of interest include but are not limited to:
+            We welcome original contributions that advance the state of the art in vision-language learning, multimodal perception, and embodied AI, particularly in unconstrained, real-world environments. Topics of interest include, but are not limited to:
             <ul style="font-size:15px;">
                 <li style="margin-left:30px">
-                    LMMs: collection/curation/creation of pre-trainig and instruction-following data, alignment with human intents and modeling.
+                    <strong>LMMs & Vision-Language Systems</strong>: Open-vocabulary learning, multimodal pretraining, and adaptation.
                 </li>
                 <li style="margin-left:30px">
-                    New metrics / benchmarks / datasets to evaluate LMM, task-level transfer and open-set visual recognition
+                    <strong>Video Understanding & Temporal Reasoning</strong>: Long-range video modeling, causal reasoning, and instruction-following.
                 </li>
                 <li style="margin-left:30px">
-                    Unified neural networks architectures and training objectives over different CV & MM tasks
+                    <strong>VLA & Embodied AI</strong>: Multimodal action learning, simulation-to-real transfer, and robotic perception.
                 </li>
                 <li style="margin-left:30px">
-                    Tool use, external knoweldge and multimodal agents
+                    <strong>Foundation Models for Vision Tasks</strong>: Object detection, segmentation, tracking, and fine-grained recognition in the wild.
                 </li>
                 <li style="margin-left:30px">
-                    Open-set visual recognition methods, including classification, object detection, segmentation in images and videos
-                </li>
+                    <strong>Efficient Training Methods</strong>: Large visual model adaptation methods, measured by #training samples (zero-shot and few-shot), #trainable parameters, throughput, training cost
+                </li>    
                 <li style="margin-left:30px">
-                    Efficient large visual model adaptation methods, measured by #training samples (zero-shot and few-shot), #trainable parameters, throughput, training cost
-                </li>
-                <li style="margin-left:30px">
-                    Efficien prompting, inference and serving techniques at scale.
-                </li>
+                    <strong>New Metrics and Benchmarks</strong>: Novel ways to evaluate existing LMMs and large vision models for task-level transfer and open-set visual recognition.
+                </li>                            
             </ul>
-            <br>
-            We accept abstract submissions to our workshop. All submissions shall have maximally 8 pages (excluding references) following the CVPR 2025 author guidelines. All submissions will be reviewed by the Program Committee on the basis of technical quality, relevance to scope of the conference, originality, significance, and clarity. Ther review process is double-blind, and the accepted papers are NOT archived in CVPR proceeding.
+            <p style="font-size:15px; font-weight: 400; text-align:left">
+            We accept abstract submissions to our workshop. All submissions shall have maximally 8 pages (excluding references) following the CVPR 2025 author guidelines. All submissions will be reviewed by the Program Committee on the basis of technical quality, relevance to scope of the conference, originality, significance, and clarity. Ther review process is double-blind, and the accepted papers are <strong>NOT</strong> archived in CVPR 2025 Proceeding.
+            </p>          
             <br><br>
-            <!-- <div class="large-12 columns" style="text-align:left;">
+            <div class="large-12 columns" style="text-align:left;">
                 <p style="font-size:15px; font-weight: 200; border-style: solid; border-width: 1px; text-align:justify; padding:5px; width:85%">
                     <code>
-                        <span style="display:inline-block; margin-left:5px;"></span>
-                            <a href="https://cmt3.research.microsoft.com/CVinW2024"></a>
-                                <img src="./static/eccv2022/img/icons/icon_live.png" class=" style=" width="45" height="40" ;>
-                            </a>
-                        </span>
-                        <span style="width:85%; margin:5px; display:inline-block;">
-                            Workshop Paper Submission Portal: 
-                            <a href="https://cmt3.research.microsoft.com/CVinW2024"> [CMT] </a>
-                        </span>
-                        <span style="display:inline-block; margin-left:10px;"></span><br>
+                        <span style="width:40%; margin:5px; display:inline-block;">Workshop Paper Submission Portal:</span>
+                        <span style="display:inline-block; margin-left:10px;"></span><a href="https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/CVinW">[Open Review]</a><img src="./static/cvpr2025/img/icons/icon_live.png" class=" style=" width="45" height="40" ;><br>
                     </code>
+                    <code>
+                        <!-- <span style="width:40%; margin:5px; display:inline-block;">Feb, 2024</span>
+                        <span style="display:inline-block; margin-left:10px;">Competition starts, testing phase begins</span><br> -->
+
+                        <!-- <span style="width:40%; margin:5px; display:inline-block;">June 2nd, 2024</span>
+                        <span style="display:inline-block; margin-left:10px;">Competition ends (challenge paper submission)</span><br> -->
+
+                        <span style="width:40%; margin:5px; display:inline-block;">Submission Deadline:</span>
+                        <span style="display:inline-block; margin-left:10px;"></span>May 2nd, 2025<br>
+
+                        <span style="width:40%; margin:5px; display:inline-block;">Acceptance Notification:</span>
+                        <span style="display:inline-block; margin-left:10px;"></span>May 16th, 2025<br>
+
+                        <span style="width:40%; margin:5px; display:inline-block;">Camera-ready Submission</span>
+                        <span style="display:inline-block; margin-left:10px;"></span>May 30th, 2025<br>
+                    </code>                    
                 </p>
-            </div> -->
+            </div>
         </p>
     </div>
     <hr>
@@ -1171,11 +1184,9 @@
 
         <!-- Contact Information -->
         <div class="large-12 columns" style="background: white;">
-            <p style="color:black; text-align:center; display:block; margin-top:7px;">Workshop and Challenge Questions?
+            <p style="color:black; text-align:center; display:block; margin-top:7px;">                
+                Question? Reach out <a href="https://computer-vision-in-the-wild.github.io/cvpr-2025/" target="_top">Workshop Organizing Team</a>
                 <br>
-                Reach out: <a href="https://computer-vision-in-the-wild.github.io/cvpr-2025/" target="_top">https://github.com/Computer-Vision-in-the-Wild/cvpr-2025</a>
-                <br>
-                Workshop Organizing Team
             </p>
         </div>
     </section>
