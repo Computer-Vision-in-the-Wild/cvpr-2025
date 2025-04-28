@@ -307,6 +307,10 @@ select {
         position: relative;
         width: 8.33333%;
     }
+    .large-1pt5 {
+        position: relative;
+        width: 12.5%;
+    }    
     .large-2 {
         position: relative;
         width: 16.66667%;
